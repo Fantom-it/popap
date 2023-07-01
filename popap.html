@@ -8,6 +8,33 @@
           height: 350px !important;
         }
       }
+      .input-num {
+        width: 100%;
+        height: 50px;
+        border-radius: 20px;
+        border: 1.5px solid #000;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        margin-top: 5px;
+      }
+      .input-num:focus {
+        outline: none;
+      }
+      .button-otpr {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        border: 1.5px solid #000;
+        border-radius: 20px;
+        margin-top: 20px;
+        background: none;
+      }
+      .button-otpr p {
+        font-size: 18px;
+        margin: auto;
+        text-decoration: none;
+      }
     </style>
     <div
       class="block"
@@ -59,9 +86,16 @@
             
           </div>
         </div>
+        <p style="color: #000; margin: 0; margin-top: 20px;">Ваш телефон</p>
+        <input class="input-num"
+         type="number" placeholder="+7 123 456 89 01">
+         <a style="text-decoration: none;" href="https://www.baikal-seasons.com/thanks">
+         <button class="button-otpr"><p>Отправить</p></button>
+        </a>
       </div>
+      
   
       <!-- <img class="img" style="width: 100%; z-index: 0;" src="img/img-popap.jpg" alt="">
     --></div>
   </body>
-  s
+  
