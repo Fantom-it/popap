@@ -87,14 +87,15 @@
           </div>
         </div>
         <p style="color: #000; margin: 0; margin-top: 20px;">Ваш телефон</p>
-        <input class="input-num"
-         type="number" placeholder="+7 123 456 89 01">
-         <a style="text-decoration: none;" href="https://www.baikal-seasons.com/thanks">
-         <button class="button-otpr"><p>Отправить</p></button>
+        <form action="sender.php" method="post">
+        <input class="input-num" type="number" name="phone" placeholder="+7 123 456 89 01" required> 
+        <a style="text-decoration: none;" href="https://www.baikal-seasons.com/thanks"> 
+         <button type="submit" class="button-otpr"><p>Отправить</p></button>
         </a>
+      </form>
       </div>
       
-  
+      <script src="popap.js"></script>
       <!-- <img class="img" style="width: 100%; z-index: 0;" src="img/img-popap.jpg" alt="">
     --></div>
   </body>
